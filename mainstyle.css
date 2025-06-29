@@ -43,11 +43,19 @@ p{
   color: rgb(203, 197, 197);
 
 }
-.header-left h1{
+.right h1{
   padding-top: 2px;
   padding-left: 10px;
     font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-style: normal;
+}
+.right p{
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(91, 88, 148);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 .main{
@@ -88,10 +96,12 @@ p{
   font-weight: 500;
   font-style: normal;
 }
+.header-left{
+    display: flex;
+}
 .top-box{
   width: 295px;
   height: 123px;
-  display: inline-block;
   margin-left: 10px;
   border-radius: 10px;
   margin-top: 18px;
@@ -132,3 +142,10 @@ p{
 .cgpa h4{
   color: rgb(11, 201, 94);
 }
+
+
+
+
+
+
+        
